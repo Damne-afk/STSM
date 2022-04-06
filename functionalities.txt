@@ -1,0 +1,20 @@
+Book Inventory Functionalities
+
+Functionality for Add button()
+Functionality for Remove Button
+Card View clickable and inside would be description and a button for reserving the book and functionalities for the book reserving
+
+
+Book Reservation
+Functionality for accepting the request (form for getting Fulname, Borrowed book, ISBN)
+Functionality for declining the request
+clickable and editable cardview for the status so we can change the status to unpaid or paid
+amending the data of the reserve book function
+
+
+
+
+Transaction History
+Amend all of the data for those who's reservation who got accepted and decline
+
+
