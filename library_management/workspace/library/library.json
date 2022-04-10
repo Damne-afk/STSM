@@ -1,0 +1,36 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Library\"}}]",
+ "creation": "2022-04-04 22:30:06.216499",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 1,
+ "icon": "milestone",
+ "idx": 0,
+ "label": "Library",
+ "links": [],
+ "modified": "2022-04-09 02:55:16.972960",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library",
+ "owner": "nik@gmail.com",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "Library",
+ "roles": [
+  {
+   "role": "Librarian"
+  }
+ ],
+ "sequence_id": 31.0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Members",
+   "link_to": "Library Member",
+   "type": "DocType"
+  }
+ ],
+ "title": "Library"
+}
