@@ -1,8 +1,8 @@
 {
- "_liked_by": "[\"nik@gmail.com\"]",
+ "_liked_by": "[\"nik@gmail.com\", \"Administrator\"]",
  "actions": [],
  "allow_rename": 1,
- "autoname": "LM-.#####.{school_id}",
+ "autoname": "format:{last_name}--{school_id}",
  "creation": "2022-04-02 02:19:28.075128",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -14,8 +14,7 @@
   "school_id",
   "email_address",
   "phone",
-  "amended_from",
-  "route"
+  "amended_from"
  ],
  "fields": [
   {
@@ -63,21 +62,15 @@
    "fieldtype": "Data",
    "label": "School Id",
    "reqd": 1
-  },
-  {
-   "fieldname": "route",
-   "fieldtype": "Data",
-   "label": "Route"
   }
  ],
- "has_web_view": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-04-10 21:59:56.536652",
+ "modified": "2022-04-15 04:02:12.705483",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",
- "naming_rule": "Expression (old style)",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -91,9 +84,22 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Librarian",
+   "share": 1,
+   "write": 1
   }
  ],
- "route": "view-inventory",
+ "restrict_to_domain": "Library",
+ "route": "view-members",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
